@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https:/roaazoman3221.github.io/simple-interface-website",
+  "homepage": "https://roaazoman3221.github.io/simple-interface-website",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
