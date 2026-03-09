@@ -1,0 +1,81 @@
+
+
+.hero{
+    height: 400px;
+
+    .hero-content{
+        max-width: 1226px;
+        min-height: 232px;
+        margin: 207px 70px 70px;
+        .hero-text{
+            min-height: 144px;
+            .hero-title{
+                max-width: 100%;
+                font-weight: 600;
+                font-size: 48px;
+                line-height: 60px;
+                letter-spacing: -2%;
+                text-align: center;
+                color: #1A1A1A;
+            }
+            .hero-dis{
+                max-width: 768px;
+                font-weight: 400;
+                font-size: 20px;
+                line-height: 30px;
+                text-align: center;
+                color: #C0C5D0;
+                margin: 24px auto;
+            }
+        }
+
+        .hero-submit{
+            max-width: 496px;
+            margin: 40px auto;
+            display: flex;
+            justify-content: space-between;
+            .email{
+                max-width: 100%;
+                width: 360px;
+                height: 48px;
+                border: 1px solid #7F56D9;
+                border-radius: 8px;
+                padding: 12px 16px;
+                transition: all 0.2s ease;
+                &:hover{
+                    border: 2px solid #543990;
+                    outline-style: none;
+                }
+            }
+            .subscribe{
+                width: 120px;
+                height: 48px;
+                border: none;
+                border-radius: 8px;
+                background: none;
+                background-color: #7F56D9;
+                color: white;
+                cursor: pointer;
+                transition: all 0.3s ease;
+                &:hover{
+                    background-color: #543990;
+                }
+            }
+        }
+
+    }
+}
+
+
+@media screen and (max-width : 992px){
+    .hero{
+        .hero-content{
+            margin: 173px 20px;
+            .hero-submit{
+                flex-direction: column;
+                align-items: center;
+                gap: 20px;
+            }
+        }
+    }
+}
